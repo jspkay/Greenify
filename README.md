@@ -41,5 +41,9 @@ Here some notebooks we used to train the network:
 Keep in mind that the reference notebooks are those in this repo. They are complete and working. Unluckily there isn't the actual notebook training of the U-net. It was lost because, during one training session, it grew so much in size (more than 2GB!) that it was completely unreadable from any software, it was just too much big... In any case, the file is called "uNet+PerceptyalLoss.ipynb" and it's available in the provided link (Modelli > uNet+selfAttention). There are a lot of other stuff we tried and all the used material is available on Google Drive at the following links:
 - [Everthing we used - first account](https://drive.google.com/drive/folders/1o3Ql0-DUIy90nSV8Qgca9lZrbYpJw_yv?usp=sharing)
 - [Everthing we used - second account](https://drive.google.com/drive/folders/1zYaWNVpt8_hKogIkX9GN-KjBmQaorkj1?usp=sharing)
+
+---
+
 Side note: the names of the notebooks might be misguiding, so it's better to open them to check their content.
+
 P.S. every refernce to selfAttention is garbage: alothough we wanted to use a self-attention layer, we've never done it due to little time we had.
