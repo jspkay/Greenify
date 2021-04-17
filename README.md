@@ -21,11 +21,11 @@ Here we'll report some results.
 ### Pix2Pix
 ![Flower](https://github.com/jspkay/Greenify/blob/main/Risultati%20Pix2Pix/16.png "Flower example")
 ![Mountain](https://github.com/jspkay/Greenify/blob/main/Risultati%20Pix2Pix/5.png "Mountain example")
-![Armadillo?](https://github.com/jspkay/Greenify/blob/main/Risultati%20Pix2Pix/17.png "Armadillo(?) example")
+![Wall](https://github.com/jspkay/Greenify/blob/main/Risultati%20Pix2Pix/23.png "Wall example")
 ### U-Net
-![Dog](https://github.com/jspkay/Greenify/blob/main/Risultati%20U-Net/16.png "Flower example")
-![Mountain](https://github.com/jspkay/Greenify/blob/main/Risultati%20U-Net/5.png "Mountain example")
-![Flower 2](https://github.com/jspkay/Greenify/blob/main/Risultati%20U-Net/17.png "Flower 2 example")
+![Flower](https://github.com/jspkay/Greenify/blob/main/Risultati%20U-Net/17.png "Flower example")
+![Mountain](https://github.com/jspkay/Greenify/blob/main/Risultati%20U-Net/6.png "Mountain example")
+![Tomatos](https://github.com/jspkay/Greenify/blob/main/Risultati%20U-Net/26.png "Tomatos example")
 
 As written in the report, there's a lot of underfitting. That's due to multiple reasons:
 - We were using Google Colab. Believe me, it's a mess if you are to use it as a professional tool. It's ok for little demonstrations, but train an entire neural network on it?! C'mon man, you want too much.
@@ -35,9 +35,11 @@ But after all, the results are quite impressive, if you think what we went throu
 
 ## Notebooks
 Here some notebooks we used to train the network:
-- [U-net](https://colab.research.google.com/drive/1Oc13XBfAiW94X6ecEijdqkfVESdxNKTE?usp=sharing)
+- [U-net](https://colab.research.google.com/drive/1_L-nFFLkZHy9VdW80vWzbPCRaPHN3Y6o?usp=sharing) (Same as the one in this repo)
+- [Pix2Pix](https://colab.research.google.com/drive/1-_jJSYgl6vOsiBXLHwa2Tl8p7CkF3NnQ?usp=sharing) (Same as the one in this repo)
 - [NoGan](https://colab.research.google.com/drive/177jTPdPgVU0cUOj-jn4bnxhtZpAyCctM?usp=sharing)
-- [Pix2Pix](https://drive.google.com/file/d/1tvIKepWVUoh1mVL8Bwy-7LLkPMxKAgeD/view?usp=sharing)
-Keep in mind that the reference notebooks are those in this repo. They are complete and working. Unluckily there isn't the actual notebook training of the U-net. It was lost because, during one training session, it grew so much in size (more than 2GB!) that it was completely unreadable from any software, it was just too much big... But in any case there are a lot of other trining we tried and all the used material is available on Google Drive at the following links:
+Keep in mind that the reference notebooks are those in this repo. They are complete and working. Unluckily there isn't the actual notebook training of the U-net. It was lost because, during one training session, it grew so much in size (more than 2GB!) that it was completely unreadable from any software, it was just too much big... In any case, the file is called "uNet+PerceptyalLoss.ipynb" and it's available in the provided link (Modelli > uNet+selfAttention). There are a lot of other stuff we tried and all the used material is available on Google Drive at the following links:
 - [Everthing we used - first account](https://drive.google.com/drive/folders/1o3Ql0-DUIy90nSV8Qgca9lZrbYpJw_yv?usp=sharing)
 - [Everthing we used - second account](https://drive.google.com/drive/folders/1zYaWNVpt8_hKogIkX9GN-KjBmQaorkj1?usp=sharing)
+Side note: the names of the notebooks might be misguiding, so it's better to open them to check their content.
+P.S. every refernce to selfAttention is garbage: alothough we wanted to use a self-attention layer, we've never done it due to little time we had.
