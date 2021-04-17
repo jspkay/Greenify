@@ -19,22 +19,22 @@ We aimed to use the U-Net as the generator in the Pix2Pix in addition with our c
 You can see the complete report (in italian unluckily) in the file "Risultati.pdf". It is written based on a template, given by our professors, used in CVPR conferences.
 Here we'll report some results.
 ### Pix2Pix
-![Dog](https://github.com/jspkay/Greenify/blob/main/Risultati%20Pix2Pix/1.png "Dog example")
-![Plant](https://github.com/jspkay/Greenify/blob/main/Risultati%20Pix2Pix/2.png "Plant example")
-![Tenda](https://github.com/jspkay/Greenify/blob/main/Risultati%20Pix2Pix/10.png "camping tend example")
+![Flower](https://github.com/jspkay/Greenify/blob/main/Risultati%20Pix2Pix/16.png "Flower example")
+![Mountain](https://github.com/jspkay/Greenify/blob/main/Risultati%20Pix2Pix/5.png "Mountain example")
+![Armadillo?](https://github.com/jspkay/Greenify/blob/main/Risultati%20Pix2Pix/17.png "Armadillo(?) example")
 ### U-Net
-![Dog](https://github.com/jspkay/Greenify/blob/main/Risultati%20U-Net/1.png "Dog example")
-![Plant](https://github.com/jspkay/Greenify/blob/main/Risultati%20U-Net/2.png "Plant example")
-![Tenda](https://github.com/jspkay/Greenify/blob/main/Risultati%20U-Net/10.png "camping tend example")
+![Dog](https://github.com/jspkay/Greenify/blob/main/Risultati%20U-Net/16.png "Flower example")
+![Mountain](https://github.com/jspkay/Greenify/blob/main/Risultati%20U-Net/5.png "Mountain example")
+![Flower 2](https://github.com/jspkay/Greenify/blob/main/Risultati%20U-Net/17.png "Flower 2 example")
 
 As written in the report, there's a lot of underfitting. That's due to multiple reasons:
 - We were using Google Colab. Believe me, it's a mess if you are to use it as a professional tool. It's ok for little demonstrations, but train an entire neural network on it?! C'mon man, you want too much.
 - The dataset had to be loaded from Google drive to Colab. This is also why we counldn't test our network with canonical datasets. There's a great lag dut to the transfer of files from Drive servers to Colab servers (that's a guess) and that's just unfeasible. To train just the first epoch we had to wait more than 1 hour!
-- Images are big. We had much problem because of this. Since the dataset is quite large for thi platform we couldn't use much other imges! Plus they had to be in double copy (both Black&White and RGB colored.)
+- Images are big. Every image is 256x256! We had much problem because of this. Since the dataset is quite large for thi platform we couldn't use much other imges! Plus they had to be in double copy (both Black&White and RGB colored.)
 But after all, the results are quite impressive, if you think what we went through!
 
 ## Notebooks
-Here some notebooks we used to train the netork:
+Here some notebooks we used to train the network:
 - [U-net](https://colab.research.google.com/drive/1Oc13XBfAiW94X6ecEijdqkfVESdxNKTE?usp=sharing)
 - [NoGan](https://colab.research.google.com/drive/177jTPdPgVU0cUOj-jn4bnxhtZpAyCctM?usp=sharing)
 - [Pix2Pix](https://drive.google.com/file/d/1tvIKepWVUoh1mVL8Bwy-7LLkPMxKAgeD/view?usp=sharing)
