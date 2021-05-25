@@ -46,4 +46,4 @@ Keep in mind that the reference notebooks are those in this repo. They are compl
 
 Side note: the names of the notebooks might be misguiding, so it's better to open them to check their content.
 
-P.S. every refernce to selfAttention is garbage: alothough we wanted to use a self-attention layer, we've never done it due to little time we had.
+P.S. every refernce to selfAttention is garbage: although we wanted to use a self-attention layer, we've never done it due to time constraints.
